@@ -4,7 +4,7 @@ import requests
 
 BASE_URL = "http://127.0.0.1:8000/ingest"
 SAMPLE_PDF_PATH = os.path.join(os.path.dirname(__file__), 'sample.pdf')
-SAMPLE_METADATA = {"author": "John Doe", "category": "test"}
+SAMPLE_METADATA = {"author": "Aryan Raj Jaiswal", "category": "test"}
 
 def test_ingest_document():
     with open(SAMPLE_PDF_PATH, 'rb') as file:
